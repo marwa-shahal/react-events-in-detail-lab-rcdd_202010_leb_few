@@ -3,11 +3,11 @@ import React, {Component} from 'react';
 
 export default class CoordinatesButton extends Component {
   
-  
+  xyCoordinates=() => [X,Y]
   
 render(){
   return (
-    <button onClick={()=>[X,Y]}> </button>
+    <button onClick={xyCoordinates}> </button>
     )
   }
 }
